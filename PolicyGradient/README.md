@@ -316,4 +316,4 @@ $$
 
 参考：Sutton & Barto, *Reinforcement Learning: An Introduction*, 2nd ed., Chapter 13；[作者书稿](http://incompleteideas.net/book/the-book-2nd.html)。
 
-[返回首页](../README.md) · [复习 MC](../MonteCarlo/README.md) · [对照 DQN](../DQN/README.md)
+[返回首页](../README.md) · [复习 MC](../MonteCarlo/README.md) · [对照 DQN](../DQN/README.md) · [下一章 Actor-Critic](../ActorCritic/README.md)
