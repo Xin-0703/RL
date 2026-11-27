@@ -9,5 +9,8 @@
 | [DQN](DQN/README.md) | 深度 Q 网络：原理推导、算法流程、手算例题、PyTorch 实现和课后练习 |
 | [策略梯度（Policy Gradient）](PolicyGradient/README.md) | 策略梯度定理、REINFORCE、基线与优势、手算例题、Python 实验和附答案练习 |
 | [演员—评论家（Actor-Critic）](ActorCritic/README.md) | 策略与价值协同学习、TD 优势、两个参数更新、n 步与 GAE、例题、Python 实验和附答案练习 |
+| [信赖域策略优化（TRPO）](TRPO/README.md) | 性能差异与代理目标、KL 约束、自然梯度、共轭梯度与回溯、手算例题、Python 实验和附答案练习 |
 
 建议先学习 [MDP](MDP/README.md) 和 [蒙特卡洛](MonteCarlo/README.md)，再比较 [DQN](DQN/README.md) 的价值学习与 [策略梯度](PolicyGradient/README.md) 的直接策略优化，最后学习 [Actor-Critic](ActorCritic/README.md) 如何结合策略和价值。各章均按文末安排完成实验与练习。
+
+完成 Actor-Critic 后，继续学习 [TRPO](TRPO/README.md)，理解策略更新为何需要信赖域，以及如何从 KL 约束推导更新方向与步长。
